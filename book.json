@@ -1,0 +1,11 @@
+{
+     "gitbook":"2.x.x",
+     "title":"学习笔记",
+     "author":"xylim",
+     "plugins":[
+     	"expandable-chapters-interactive",
+     	"sectionx",
+     	"splitter"
+     ]
+
+}
