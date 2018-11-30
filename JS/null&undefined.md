@@ -37,7 +37,7 @@
 
    得出 true
 
-   实际上，undefined值是派生自null值的，ECMAScript标准规定对二者进行**相等性测试要返回true**
+   实际上，**undefined值是派生自null值的**，ECMAScript标准规定对二者进行**相等性测试要返回true**
 
    **注意** undefined & null 转为Boolean值均为false
 
