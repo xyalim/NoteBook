@@ -24,7 +24,7 @@ git pull origin master
 
 #### **！ origin可以改别的名字 master为对应分支的名字 其中 master为主分支**
 
-**设置操作的默认库和分支 （直接git pull   git push）**
+### **设置操作的默认库和分支 （直接git pull   git push）**
 
 ```
 git branch --set-upstream-to=origin/master
@@ -37,10 +37,6 @@ git branch --set-upstream-to=origin/master
 **回退版本**
 
 先查看要回退的时间点
-
-```
-
-```
 
 ```
 git reset --hard d48bf2fcd99
