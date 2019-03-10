@@ -1,0 +1,49 @@
+git pull https://gitee.com/xylimtest/0index-Note.git master && git add . && git commit -m "commit" && git push https://gitee.com/xylimtest/0index-Note.git master
+
+
+
+### git笔记
+
+http://html5book.bluej.cn/#/md/6-workflow/git/git%E7%9A%84%E4%BD%BF%E7%94%A8?id=base
+
+git push -f 	// -f 强推 无视差异 强行推送远程git仓库
+
+
+
+**添加远程库地址**
+
+```git
+git remote add origin <repo-address>        //把远程库的地址填入到<repo-address>
+```
+
+**把本地库文件和远程库文件进行合并**
+
+```
+git pull origin master
+```
+
+#### **！ origin可以改别的名字 master为对应分支的名字 其中 master为主分支**
+
+**设置操作的默认库和分支 （直接git pull   git push）**
+
+```
+git branch --set-upstream-to=origin/master
+```
+
+其中 origin为 **给该本地库添加远程库地址** origin可以改别的名字 时候添加的 master为主线分支 可以设置别的分支
+
+
+
+**回退版本**
+
+先查看要回退的时间点
+
+```
+
+```
+
+```
+git reset --hard d48bf2fcd99
+```
+
+`hard`的参数值就是第一步所获取到的id(不需要全部，可以截取其中一截就可以了)、

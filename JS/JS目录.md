@@ -29,7 +29,7 @@
 
 
 
-1. 
+1. 关于require.js的那些坑
 
 ### <span id="js-1">**开发者调试工具技巧 技巧篇**</span>
 
@@ -45,4 +45,5 @@
 2. this进阶
 3. 面向对象的合理使用
 4. jquery
+5. requireJs commonJs AMD CMD
 
