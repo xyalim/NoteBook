@@ -6,9 +6,15 @@ git pull https://gitee.com/xylimtest/0index-Note.git master && git add . && git 
 
 http://html5book.bluej.cn/#/md/6-workflow/git/git%E7%9A%84%E4%BD%BF%E7%94%A8?id=base
 
-git push -f 	// -f 强推 无视差异 强行推送远程git仓库
+`git pull`  其实就是 git fetch  + git merge
+
+git checkout YYYY :  YYYY是分支之一 该命令是分支切换
 
 
+
+
+
+git push -f 	// -f  **强推 无视差异** 强行推送远程git仓库
 
 **添加远程库地址**
 
@@ -43,3 +49,33 @@ git reset --hard d48bf2fcd99
 ```
 
 `hard`的参数值就是第一步所获取到的id(不需要全部，可以截取其中一截就可以了)、
+
+
+
+参与github上的一些优秀的项目的通用例子
+
+```
+$git clone <远程Arepository> #克隆你fork出来的分支
+
+$git remote add <远程Brepository标签> git@github.com:XXXX/ceph.git #添加远程Brepository标签
+
+$git pull <远程B厂库标签> master:master  #从远程Brepository的master分支拉取最新objects合并到本地master分支
+
+$git checkout YYYY #切换到要修改的分支上
+
+$git branch develop; git checkout develop #在当前分支的基础上创建一个开发分支，并切换到该分支上，你将在该分支上coding
+
+coding...... #在工作区coding
+
+$git add .#将修改保存到索引区
+
+$git commit -a #将修改提交到本地分区
+
+$git push origin my_test:my_test #将本地分支my_test提交到远程A repository的my_test分支上
+--------------------- 
+作者：李艳坤 
+来源：CSDN 
+原文：https://blog.csdn.net/litianze99/article/details/52452521 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+```
+
