@@ -52,6 +52,7 @@ git reset --hard d48bf2fcd99
 
 
 
+<<<<<<< HEAD:关于git命令.txt
 参与github上的一些优秀的项目的通用例子
 
 ```
@@ -79,3 +80,31 @@ $git push origin my_test:my_test #将本地分支my_test提交到远程A reposit
 版权声明：本文为博主原创文章，转载请附上博文链接！
 ```
 
+=======
+#### 设置git全局账号密码
+
+  需要输入用户名和密码是由于github上个人账户没有设置SSH keys，设置步骤大概为：
+1、在github网站登录后，点击右上角的Accout settings ——> SSH keys ——> Add SSH key——> 将生成的公钥内容拷贝进去。
+2、本机上个人目录需要创建.ssh目录，并且将公钥和私钥保存到这个目录。
+
+我写了一篇个人博客：
+http://blog.csdn.net/whu_zhangmin/article/details/12111663  
+
+
+
+关于 `ssh -T git@github.com` 
+
+假如遇到此提示
+
+`Enter passphrase for key '/c/Users/Administrator/.ssh/id_rsa':`
+
+这是要提示输入你设置ssh秘钥时候的密码 错误将循环提示至你退出
+
+https://blog.csdn.net/huang3513/article/details/52837075
+
+
+
+`关于永久保存git 账号密码`
+
+https://blog.csdn.net/lyly4413/article/details/80691751
+>>>>>>> f5f07ac7d6a1b5bc26a981200afa4a0b5d926bc2:关于git命令.md
