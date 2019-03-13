@@ -1,0 +1,1 @@
+npm install  webpack webpack-dev-server webpack-cli babel-loader babel-core -D
