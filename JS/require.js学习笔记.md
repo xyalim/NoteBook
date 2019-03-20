@@ -123,3 +123,17 @@ module输出的内容如下
 }
 ```
 
+shim：定义模块之间的依赖关系。
+
+```javascript
+'shim' : {
+    'bootstrap' : {
+    	'deps' : ['jquery']
+    },
+    'test' : {
+        'deps' : ['jquery', 'bootstrap']
+    }
+}
+
+```
+
