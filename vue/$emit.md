@@ -19,7 +19,7 @@ $emit 即 使用当前实例的事件 比如子组件 引用父组件的方法�
 ```
 <template>
 	<div class="father">
-		
+		<son @fatherfun="fatherfun" ></son>
 	</div>
 </template>
 

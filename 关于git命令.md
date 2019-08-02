@@ -42,6 +42,8 @@ git branch --set-upstream-to=origin/master
 
 **回退版本**
 
+https://blog.csdn.net/daguanjia11/article/details/73810577
+
 先查看要回退的时间点
 
 ```
