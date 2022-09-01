@@ -1,1 +1,0 @@
-#### npm init -y 全部选项默认yes 
