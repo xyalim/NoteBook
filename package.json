@@ -1,0 +1,28 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "个人的笔记随笔",
+  "main": " ",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "gen-nav": "vuepress nav docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyalim/NoteBook.git"
+  },
+  "author": "xyalim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xyalim/NoteBook/issues"
+  },
+  "homepage": "https://github.com/xyalim/NoteBook#readme"
+}
